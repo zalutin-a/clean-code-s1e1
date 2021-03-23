@@ -32,14 +32,14 @@ body {
   display: inline-block;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -134,14 +134,14 @@ li >    input[type="text"] {
 
 /* Edit Task */
 .changing-task {
-  display:none
+  display: none
 }
 
 .edit-task-mode .changing-task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-task-mode .task {
-  display:none;
+  display: none;
 }
