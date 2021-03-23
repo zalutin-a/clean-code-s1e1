@@ -142,6 +142,7 @@ li > input[type="text"] {
 .edit-task-mode .changing-task {
   display: inline-block;
   width: 224px;
+  box-sizing: border-box;
 }
 
 .edit-task-mode .task {
