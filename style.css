@@ -112,7 +112,7 @@ li > label {
   width: 226px;
 }
 li >    input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .delete-task:hover {
   color: #cf2323;
@@ -128,18 +128,18 @@ li >    input[type="text"] {
 
 /* Completed */
 #section-completed-tasks .task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .changing-task {
-  display: none
+  display: none;
 }
 
 .edit-task-mode .changing-task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-task-mode .task {
