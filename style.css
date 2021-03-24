@@ -116,12 +116,14 @@ body {
   margin: 0 10px;
 }
 .task-text {
+  text-transform: capitalize;
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 .changing-task {
+  text-transform: capitalize;
   width: 226px;
 }
 .btn-delete:hover {
