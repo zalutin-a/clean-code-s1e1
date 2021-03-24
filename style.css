@@ -89,6 +89,7 @@ label[for="input-task"] {
 }
 #input-task {
   width: 318px;
+  box-sizing: border-box;
 }
 .add-task:hover {
   color: #0fc57c;
