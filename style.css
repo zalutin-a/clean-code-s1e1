@@ -103,6 +103,8 @@ body {
 /* Task list */
 .task,
 .task_edit-mode {
+  display: flex;
+  align-items: center;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -150,7 +152,7 @@ body {
 }
 
 .task_edit-mode .changing-task {
-  display: inline-block;
+  display: flex;
   box-sizing: border-box;
 }
 
