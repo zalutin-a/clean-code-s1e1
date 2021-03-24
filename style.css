@@ -130,7 +130,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#section-completed-tasks .task {
+.section-completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
