@@ -81,6 +81,7 @@ body {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  text-transform: capitalize;
 }
 .changing-task:focus,
 .add-tasks__input:focus {
