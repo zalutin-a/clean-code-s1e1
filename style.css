@@ -27,11 +27,11 @@
   width: 400px;
   margin: 0 auto 0;
 }
-.task-text {
+.task__text {
   width: 56%;
   display: inline-block;
 }
-.list {
+.task-list {
   margin: 0;
   padding: 0px;
 }
@@ -41,12 +41,16 @@
   list-style: none;
 }
 .add-tasks__input,
-.changing-task,
-.btn-change-status,
-.btn {
+.task__edit-input,
+.task__btn-change-status,
+.add-task__btn-add,
+.task__btn-edit,
+.task__btn-delete {
   outline: none;
 }
-.btn {
+.add-task__btn-add,
+.task__btn-edit,
+.task__btn-delete {
   background: none;
   border: 0px;
   color: #888;
@@ -55,7 +59,9 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.btn:hover {
+.add-task__btn-add:hover,
+.task__btn-edit:hover,
+.task__btn-delete:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -69,7 +75,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.changing-task,
+.task__edit-input,
 .add-tasks__input {
   margin: 0;
   font-size: 18px;
@@ -83,7 +89,7 @@
   color: #888;
   text-transform: capitalize;
 }
-.changing-task:focus,
+.task__edit-input:focus,
 .add-tasks__input:focus {
   color: #333;
 }
@@ -97,7 +103,7 @@
   width: 318px;
   box-sizing: border-box;
 }
-.btn-add:hover {
+.add-task__btn-add:hover {
   color: #0fc57c;
 }
 
@@ -115,48 +121,48 @@
   vertical-align: middle;
 }
 
-.btn-change-status {
+.task__btn-change-status {
   margin: 0 10px;
 }
-.task-text {
+.task__text {
   text-transform: capitalize;
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.changing-task {
+.task__edit-input {
   text-transform: capitalize;
   width: 226px;
 }
-.btn-delete:hover {
+.task__btn-delete:hover {
   color: #cf2323;
 }
-.btn-delete .delete-icon {
+.task__btn-delete .task__delete-icon {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
-.btn-delete .delete-icon:hover {
+.task__btn-delete .task__delete-icon:hover {
   transform: rotatez(0);
 }
 
 /* Completed */
-.completed-tasks .task-text {
+.completed-tasks .task__text {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.changing-task {
+.task__edit-input {
   display: none;
 }
 
-.task_edit-mode .changing-task {
+.task_edit-mode .task__edit-input {
   display: flex;
   box-sizing: border-box;
 }
 
-.task_edit-mode .task-text {
+.task_edit-mode .task__text {
   display: none;
 }
