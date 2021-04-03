@@ -133,11 +133,11 @@ body {
 }
 .btn-delete .delete-icon {
   height: 2em;
-  transform: rotateZ(45deg);
+  transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
 .btn-delete .delete-icon:hover {
-  transform: rotateZ(0);
+  transform: rotatez(0);
 }
 
 /* Completed */
